@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {Header, MainPage, WorkPage, HomePage, StuckPage, AntPage} from './components'
+import {Header, MainPage, WorkPage, HomePage, StuckPage, AntPage, Footer} from './components'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from "./serviceWorker";
@@ -26,6 +26,7 @@ ReactDOM.render(
       <Route path="/stuck" element={<StuckPage />}/>
       <Route path="/ant" element={<AntPage />}/>
     </Routes>
+    <Footer />
   </Router>,
 
   document.getElementById("root")
