@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.mainPage-back{
+    z-index: 0;
+}
+
+.mainPage{
+    text-align:center;
+    position:relative;
+}
+
+.name-en{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-family:  'Caudex', serif;
+    font-size: 120px;
+}
+
+.name-cn{
+    font-size: 100px;
+    font-family:  'Caudex', serif;
+    margin: 0 0 0 0;
+    color: white;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    letter-spacing: 10px;
+}
+
+.photo-img{
+    position: absolute;
+    top: 140px;
+    display: block;
+    margin-left: 37vw;
+    width: 26vw;
+    z-index: -1;
+}
+
+.photo-img-transparent{
+    /* position: absolute; */
+    top: 190px;
+    display: block;
+    margin-left: 37vw;
+    width: 26vw;
+    z-index: -1;
+    opacity: 0;
+}
+
+
+.mainpage-intro-text{
+    font-family: 'Montserrat', sans-serif;
+    width: 55vw;
+    font-size: 30px;
+    margin-left: 25vw;
+}

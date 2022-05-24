@@ -1,0 +1,21 @@
+.header-top-logo{
+    position: relative;
+    width: 10vw;
+    margin-left: 50px;
+}
+
+.header-top-logo-img{
+    position: absolute;
+    height: 8vh;
+    margin-top: 6px;
+}
+
+.header-top{
+    height:10vh;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0px;
+    z-index: 100;
+}
+
