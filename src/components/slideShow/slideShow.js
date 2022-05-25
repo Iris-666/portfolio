@@ -28,7 +28,6 @@ const slideImages = [
           </div>
           <div className="each-slide">
             <img src={require(`${slideImages[1]}`)} className="slideshow-img"></img>
-
           </div>
           <div className="each-slide">
           <img src={require(`${slideImages[2]}`)} className="slideshow-img"></img>
