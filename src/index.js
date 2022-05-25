@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {Header, MainPage, WorkPage, HomePage, StuckPage, AntPage, Footer} from './components'
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Route, Routes } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from "./serviceWorker";
 
@@ -21,11 +21,13 @@ import * as serviceWorker from "./serviceWorker";
 ReactDOM.render(
   <Router>
     <Header />
-    <Routes>
+    {/* <Routes> */}
+    <HashRouter>
       <Route path="/" element={<HomePage />}/>
       <Route path="/stuck" element={<StuckPage />}/>
       <Route path="/ant" element={<AntPage />}/>
-    </Routes>
+    {/* </Routes> */}
+    </HashRouter>
     <Footer />
   </Router>,
 
