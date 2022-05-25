@@ -20,17 +20,19 @@ import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <Router>
+    {/* <React.StrictMode> */}
+
     <Header />
-    {/* <Routes> */}
-    <HashRouter>
+    <Routes>
+    {/* <HashRouter> */}
       <Route path="/" element={<HomePage />}/>
       <Route path="/stuck" element={<StuckPage />}/>
       <Route path="/ant" element={<AntPage />}/>
-    {/* </Routes> */}
-    </HashRouter>
+    </Routes>
+    {/* </HashRouter> */}
     <Footer />
-  </Router>,
-
+    {/* </React.StrictMode>, */}
+</Router>,
   document.getElementById("root")
 );
 
