@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {Header, MainPage, WorkPage, HomePage, StuckPage, AntPage, Footer, AboutPage} from './components'
-import { BrowserRouter as Router, HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, HashRouter, Route, Routes } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from "./serviceWorker";
 
