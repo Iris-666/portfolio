@@ -9,5 +9,6 @@ import AntPage from "./antPage/antPage";
 import Slideshow from "./slideShow/slideShow";
 import Footer from "./footer/footer";
 import WorkSlideshow from "./workSlideshow/workSlideshow";
+import AboutPage from "./aboutPage/aboutPage";
 
-export {Header, NavBar, MainPage, Work, WorkPage, HomePage, StuckPage, AntPage, Slideshow, Footer, WorkSlideshow}
+export {Header, NavBar, MainPage, Work, WorkPage, HomePage, StuckPage, AntPage, Slideshow, Footer, WorkSlideshow, AboutPage}

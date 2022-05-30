@@ -11,6 +11,11 @@ function NavBar(){
         let path = `./`; 
         navigate(path);
       }
+      const routeChangeAbout = () =>{ 
+        let path = `./about`; 
+        navigate(path);
+      }
+
 
     const scrollToWork = () => {
         scroller.scrollTo("page-title-text", {
@@ -48,15 +53,15 @@ function NavBar(){
                 </button>
             </section> */}
             <section className='navbar-cv navbar-item'>
-                <button className='navbar-button'>
+                <button className='navbar-button' onClick={routeChangeAbout}>
                     About
                 </button>
             </section>
-            <section className='navbar-surprise navbar-item'>
+            {/* <section className='navbar-surprise navbar-item'>
                 <button className='navbar-button'>
                     Surprise
                 </button>
-            </section>
+            </section> */}
 
         </section>
     );
