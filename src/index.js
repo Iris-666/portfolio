@@ -24,9 +24,9 @@ ReactDOM.render(
 
     <Header />
     <Routes>
-    <HomePage />
+    
     {/* <HashRouter> */}
-      {/* <Route path="/" element={<HomePage />}/> */}
+      <Route path="/" element={<HomePage />}/>
       <Route path="/stuck" element={<StuckPage />}/>
       <Route path="/ant" element={<AntPage />}/>
       <Route path="/about" element={<AboutPage />}/>
