@@ -7,8 +7,8 @@ function AboutPage(){
         <section className="aboutPage">
             <div className='aboutPage-text-container'>
                 <p className='aboutPage-text-header'>Hi :D I’m Iris Qin.  </p>
-                <p className='aboutPage-text-normal'>I’m currently a senior majoring in Interactive Media Arts at NYU Shanghai. I'm also an AR/VR Developer, UX designer, creative coder, front-end developer, game designer, and dancer. </p>
-                <p className='aboutPage-text-normal'>My work focuses on designing digital experience, including AR, game, app, website that rise people’s awareness for physcial environment, nature, and their own life. </p>
+                <p className='aboutPage-text-normal'>I’m currently an Interactive Media Arts associalte fellow at NYU Shanghai. I'm also an AR/VR Developer, UX designer, creative coder, front-end developer, game designer, and dancer. </p>
+                <p className='aboutPage-text-normal'>My work focuses on designing digital experience, including VR/AR, game, website that rise people’s awareness for physcial environment, nature, and their own life. </p>
                 <a
                 className="aboutPage-text-normal"
                 href="mailto: tq363@nyu.edu"
