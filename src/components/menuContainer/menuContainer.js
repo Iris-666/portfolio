@@ -3,13 +3,31 @@ import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 
 
+
 function MenuContainer(props){
 	
 	let navigate = useNavigate(); 
 
-	const routeChangeGaze = () =>{ 
-        let path = `./gaze`; 
-        navigate(path);
+	const openInNewTab = (url) => {
+		const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+		if (newWindow) newWindow.opener = null
+	  }
+	
+
+	  const routeChangeSpace = () =>{ 
+        openInNewTab('https://www.space-talks.com/');
+      }
+
+      const routeChangeWander = () =>{ 
+        openInNewTab('https://wp.nyu.edu/shanghai-ima-capstonestudio/tq363/');
+      }
+
+	  const routeChangeHoodie = () =>{ 
+        openInNewTab('https://mp.weixin.qq.com/s/N4KDRqcnmdqr8PNGcJgYdw');
+      }
+
+	  const routeChangeHorse = () =>{ 
+        openInNewTab('https://heady-atmosphere-507.notion.site/Final-Project-a-Wood-Rocking-Horse-for-Adults-5f8dfc5408ec4becb0d85add7cde6cbb');
       }
 
 	const [whichProject, setWhichProject] = useState({});
@@ -50,7 +68,7 @@ function MenuContainer(props){
 					</div>
 				</a>
 				<hr></hr>
-				<a className="menuLink" onClick={clickGaze}>
+				<a className="menuLink" onClick={routeChangeWander}>
 					<div className="menu-improved">
 						<div className="menu-grid">
 							<div className="menu-grid-item">
@@ -91,7 +109,7 @@ function MenuContainer(props){
 				</a>
 
 				<hr></hr>
-				<a href="./work#GRAVEYARD" className="menuLink">
+				<a className="menuLink">
 					<div className="menu-improved">
 						<div className="menu-grid">
 							<div className="menu-grid-item">
@@ -111,7 +129,7 @@ function MenuContainer(props){
 					</div>
 				</a>
 				<hr></hr>
-				<a href="./work#NEEDEDBREAK" className="menuLink">
+				<a className="menuLink">
 					<div className="menu-improved">
 						<div className="menu-grid">
 							<div className="menu-grid-item">
@@ -129,7 +147,7 @@ function MenuContainer(props){
 				<br></br>
 				<div><h2>Design And Crafts</h2></div>
 				<hr></hr>
-				<a href="./work#MULTIANIM" className="menuLink">
+				<a onClick={routeChangeHorse} className="menuLink">
 					<div className="menu-improved">
 						<div className="menu-grid-technical">
 							<div className="menu-grid-item">
@@ -144,7 +162,7 @@ function MenuContainer(props){
 					</div>
 				</a>
 				<hr></hr>
-				<a href="./portfolio#/stuck" className="menuLink">
+				<a href="./#/stuck" className="menuLink">
 					<div className="menu-improved">
 					<div className="menu-grid-technical">
 							<div className="menu-grid-item">
@@ -162,7 +180,7 @@ function MenuContainer(props){
 					</div>
 				</a>
 				<hr></hr>
-				<a href="./work#UNITYTRICKS" className="menuLink">
+				<a onClick={routeChangeHoodie} className="menuLink">
 					<div className="menu-improved">
 					<div className="menu-grid-technical">
 							<div className="menu-grid-item">
@@ -180,7 +198,7 @@ function MenuContainer(props){
 					</div>
 				</a>
 				<hr></hr>
-				<a href="./work#MULTIANIM" className="menuLink">
+				<a onClick={routeChangeSpace} className="menuLink">
 					<div className="menu-improved">
 						<div className="menu-grid-technical">
 							<div className="menu-grid-item">
@@ -199,7 +217,7 @@ function MenuContainer(props){
 				</a>
 				<hr></hr>
 
-				<br></br>
+				{/* <br></br>
 				<div><h2>Other Works</h2></div>
 				<hr></hr>
 				<a href="./work#SUMMONINGCIRCLE" className="menuLink">
@@ -264,7 +282,7 @@ function MenuContainer(props){
 						</div>
 						<small>Narrative Designer, Art Director</small>
 					</div>
-				</a>
+				</a> */}
 
 
 	</div>
