@@ -1,0 +1,46 @@
+.myPhoto{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+.selfIntro{
+    font-size: 16px;
+    margin: 0;
+    line-height: 25px;
+}
+
+.content-container{
+    /* position: sticky; */
+
+	max-width: 100%;
+	margin-top: 0.5em;
+    font-family: 'Montserrat',sans-serif;
+    max-width: 100%;
+	margin-top: 0.5em;
+	width: 630px;
+
+margin: auto;
+	border-right: 0px dotted black;
+}
+
+.content-container-padding{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* .content-container{
+    position: sticky;
+	overflow-x: hidden;
+  	overflow-y: auto;
+
+    max-width: 100%;
+	margin-top: 0.5em;
+	padding-right: 15%;
+	width: 630px;
+    font-family: 'Montserrat',sans-serif;
+    padding-left: 20%;
+} */
+
+
+

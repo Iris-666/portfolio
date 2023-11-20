@@ -15,6 +15,10 @@ function NavBar(){
         let path = `./about`; 
         navigate(path);
       }
+      const routeChangeWork = () =>{
+        let path = './gaze';
+        navigate(path);
+      }
 
 
     const scrollToWork = () => {
@@ -43,20 +47,16 @@ function NavBar(){
             </section>
 
             <section className='navbar-work navbar-item'>
-                <button className='navbar-button' onClick={scrollToWork}>
+                <button className='navbar-button' onClick={routeChangeWork}>
                      Work
                 </button>
             </section>
-            {/* <section className='navbar-contact navbar-item'>
-                <button className='navbar-button'>
-                    Contact
-                </button>
-            </section> */}
-            <section className='navbar-cv navbar-item'>
+
+            {/* <section className='navbar-cv navbar-item'>
                 <button className='navbar-button' onClick={routeChangeAbout}>
                     About
                 </button>
-            </section>
+            </section> */}
             {/* <section className='navbar-surprise navbar-item'>
                 <button className='navbar-button'>
                     Surprise

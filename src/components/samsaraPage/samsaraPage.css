@@ -1,0 +1,6 @@
+.menu-content-container{
+	display: grid;
+	grid-template-columns: 35% 65%;
+
+	padding-top: 4.5em;
+}

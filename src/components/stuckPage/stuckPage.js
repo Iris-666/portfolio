@@ -1,14 +1,22 @@
 import './stuckPage.css';
 import {Slideshow} from '..';
+import {MenuContainer} from '../../components'
+import { useState } from 'react';
 
 
 function StuckPage(){
+
+    const [menu, setMenu]= useState({})
+
     const routeChangePrototype = () =>{ 
         // window.location.href = 'https://www.space-talks.com/';
         window.open(window.location.href = 'https://www.figma.com/proto/CwQiPk4Zvs0ZOUATKpnCjP/Stuck%3F?page-id=786%3A2550&node-id=786%3A5950&viewport=241%2C48%2C0.95&scaling=scale-down&starting-point-node-id=786%3A5983', '_blank');
       }
 
     return(
+    <div className='menu-content-container'>
+    {/* <MenuContainer setMenu={setMenu} nowShowing={"gaze"}/> */}
+
     <section className='stuckPage'>
         <section className="stuckPage-title">
             <img src={require('./stuck-cover-img.jpg')} alt="title-img" className='stuckPage-title-img'></img>
@@ -294,6 +302,7 @@ This san-serif font will give a minimial, clean and clear type to STUCK?   </p>
             </div>
         </section>
     </section>
+    </div>
     );
 }
 

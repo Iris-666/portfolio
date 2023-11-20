@@ -28,11 +28,11 @@ function AboutPage(){
                 >
                 CV
                 </a>
-                <p className='aboutPage-text-orange'>UPDATED MAY 2022</p>
+                <p className='aboutPage-text-orange'>UPDATED SEP 2022</p>
 
             </div>
             <div className='aboutPage-photo-container'>
-            <img src={require('./Tian-Qin.jpg')} alt="myphoto" className='aboutPage-photo-img'></img>
+            <img src={require('./Tian-Qin2.JPG')} alt="myphoto" className='aboutPage-photo-img'></img>
 
             </div>
         </section>
