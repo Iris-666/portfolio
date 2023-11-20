@@ -31,7 +31,7 @@ function MenuContainer(props){
 				<div><h2>Selected Projects</h2></div>
 
 				<hr></hr>
-				<a href="./portfolio#/gaze" className="menuLink" >
+				<a href="./#/gaze" className="menuLink" >
 					<div className="menu-improved">
 						<div className="menu-grid">
 							<div className="menu-grid-item">
@@ -71,7 +71,7 @@ function MenuContainer(props){
 				</a>
 				
 				<hr></hr>
-				<a className="menuLink" href="./portfolio#/samsara" onClick={clickSamsara}>
+				<a className="menuLink" href="./#/samsara" onClick={clickSamsara}>
 					<div className="menu-improved">
 						<div className="menu-grid">
 							<div className="menu-grid-item">
