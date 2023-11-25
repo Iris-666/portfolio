@@ -1,12 +1,9 @@
 import './stuckPage.css';
 import {Slideshow} from '..';
 import {MenuContainer} from '../../components'
-import { useState } from 'react';
 
 
 function StuckPage(){
-
-    const [menu, setMenu]= useState({})
 
     const routeChangePrototype = () =>{ 
         // window.location.href = 'https://www.space-talks.com/';

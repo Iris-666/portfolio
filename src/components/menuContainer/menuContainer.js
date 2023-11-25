@@ -29,6 +29,12 @@ function MenuContainer(props){
 	  const routeChangeHorse = () =>{ 
         openInNewTab('https://heady-atmosphere-507.notion.site/Final-Project-a-Wood-Rocking-Horse-for-Adults-5f8dfc5408ec4becb0d85add7cde6cbb');
       }
+	  const routeChangeAnt = () =>{ 
+        openInNewTab('https://drive.google.com/file/d/1C3Vt90RX1sy1PePoYwQi0TOCrvePviMC/view');
+      }
+	  const routeChangeMoon = () =>{ 
+        openInNewTab('https://github.com/Iris-666/abc-student-repo/blob/master/projects/projectC/README.md');
+      }
 
 	const [whichProject, setWhichProject] = useState({});
 
@@ -136,10 +142,15 @@ function MenuContainer(props){
 								<b>Letter</b>
 								<div className="largerGrey">2023</div>	
 							</div>
-							<div className="menu-grid-item">An AR Wechat Miniprogram for the immersive theater production "Letter," which actively engaged audiences through interactive target scanning for clues. </div>
-						</div>
-						<div style={{color:'#ff7800'}}>Solo Developer</div>
+							<div className="menu-grid-item">
+							<div>
+							<div>An AR Wechat Miniprogram for the immersive theater production "Letter," which actively engaged audiences through interactive target scanning for clues. </div>
+							<div style={{color:'#ff7800'}}>Solo Developer</div>
 						<div style={{color:'#747474'}}>#Augmented Reality #Wechat Miniprogram #Immersive Theater</div>
+						</div>
+						<img src={require('./letter_small.png')} style={{width:"120px",height:'120px'}}></img>
+						</div>
+						</div>
 					</div>
 				</a>
 				<hr></hr>
@@ -217,22 +228,28 @@ function MenuContainer(props){
 				</a>
 				<hr></hr>
 
-				{/* <br></br>
+				<br></br>
 				<div><h2>Other Works</h2></div>
 				<hr></hr>
-				<a href="./work#SUMMONINGCIRCLE" className="menuLink">
+				<a onClick={routeChangeAnt} className="menuLink">
 					<div className="menu-improved">
-						<div className="menu-grid">
+					<div className="menu-grid-technical">
 							<div className="menu-grid-item">
 								<b>Ant's Adventure</b>
-								<div className="largerGrey">2023</div>	
+								<div className="largerGrey">2021</div>	
 							</div>
-							<div className="menu-grid-item">An auto-battler but the bench units also come in.</div>
+							<div className="menu-grid-item">
+								<div>
+								<div >Ant's Adventure is a mobile motion-sensing flying game. The player is a little ant, who is sick of the life being exploited and working 996, so you ride a leaf and fly for free. This game was developed with Unity and the gyroscope data.</div>
+								<div style={{color:'#ff7800'}}>Role: Game Designer, Game Developer</div>
+								</div>
+							<img src={require('./ant_small.png')} style={{width:"120px",height:'120px'}}></img>
+							</div>
 						</div>
 					</div>
 				</a>
 				<hr></hr>
-				<a href="./work#TOZZI" className="menuLink">
+				{/* <a href="./work#TOZZI" className="menuLink">
 					<div className="menu-improved">
 						<div className="menu-grid">
 							<div className="menu-grid-item">
@@ -270,20 +287,27 @@ function MenuContainer(props){
 						<small>Level Designer, Gameplay Programmer</small>
 					</div>
 				</a>
-				<hr></hr>
-				<a href="./work#SEEYA" className="menuLink">
+				<hr></hr> */}
+				<a onClick={routeChangeMoon} className="menuLink">
 					<div className="menu-improved">
-						<div className="menu-grid">
+					<div className="menu-grid-technical">
 							<div className="menu-grid-item">
 								<b>On the Moon</b>
-								<div className="largerGrey">2021</div>	
+								<div className="largerGrey">2020</div>	
 							</div>
-							<div className="menu-grid-item">A visual novel about saying goodbye to my childhood best friend.</div>
+							<div className="menu-grid-item">
+								<div>
+								<div >On the Moon is an online two-player co-op game. The player is an astronaut who were on a mission to the moon. However, the spacecraft exploded. The player needs to find another astronaut on the moon and collect all 6 power wreckage together to fix the spacecraft.</div>
+								<div style={{color:'#ff7800'}}>Role: Game Designer, Web Developer</div>
+								</div>
+							<img src={require('./moon_small.png')} style={{width:"120px",height:'120px'}}></img>
+							</div>
 						</div>
-						<small>Narrative Designer, Art Director</small>
 					</div>
-				</a> */}
-
+				</a>
+				<hr></hr>
+				<br></br>
+				<br></br>
 
 	</div>
 
