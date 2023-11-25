@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.60b9c8ca.css",
-    "main.js": "/portfolio/static/js/main.eeb32f6e.js",
+    "main.css": "/portfolio/static/css/main.fe513273.css",
+    "main.js": "/portfolio/static/js/main.48fe513c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/berry.png": "/portfolio/static/media/berry.861bc1a6c986c4688ddb.png",
+    "static/media/aboutme4.png": "/portfolio/static/media/aboutme4.25475711facca9114ebd.png",
     "static/media/space-cover.png": "/portfolio/static/media/space-cover.147f645e22309757f4f2.png",
+    "static/media/aboutme3.png": "/portfolio/static/media/aboutme3.57ba4532281c94e3f2bf.png",
+    "static/media/mashu.png": "/portfolio/static/media/mashu.413161aa7cc3aefb96f7.png",
     "static/media/ant-img4.png": "/portfolio/static/media/ant-img4.a307cace7711574df901.png",
+    "static/media/aboutme1.png": "/portfolio/static/media/aboutme1.6b8da6081006d4df79c3.png",
     "static/media/ant-cover.png": "/portfolio/static/media/ant-cover.bcb5417b8527f085aefb.png",
     "static/media/ant-img3.png": "/portfolio/static/media/ant-img3.603df376adccca8bd185.png",
     "static/media/ant-img2.png": "/portfolio/static/media/ant-img2.d99c9d77f6ff7b4b7426.png",
     "static/media/horse-cover.jpg": "/portfolio/static/media/horse-cover.89c73fe496a9edbeb56e.jpg",
     "static/media/rockinghorse-cover.jpg": "/portfolio/static/media/rockinghorse-cover.89c73fe496a9edbeb56e.jpg",
     "static/media/horse-img3.jpg": "/portfolio/static/media/horse-img3.e95295ab6c6991cb72b9.jpg",
+    "static/media/aboutme2.png": "/portfolio/static/media/aboutme2.0e1c8b9a85c7cd7e3e71.png",
+    "static/media/aboutme5.png": "/portfolio/static/media/aboutme5.6fda6307b8bd4eaaa500.png",
+    "static/media/aboutme7.png": "/portfolio/static/media/aboutme7.aa59f0ec7a53b3649c7f.png",
     "static/media/horse-img2.jpg": "/portfolio/static/media/horse-img2.a173d5467ac9897dc522.jpg",
+    "static/media/aboutme8.png": "/portfolio/static/media/aboutme8.391d14ff13e5254488ed.png",
+    "static/media/aboutme6.png": "/portfolio/static/media/aboutme6.a6e4a577ffefb3359795.png",
     "static/media/Wanderlust-image2.jpg": "/portfolio/static/media/Wanderlust-image2.c15339ff511250ffda35.jpg",
     "static/media/Samsara_5.png": "/portfolio/static/media/Samsara_5.49ab325153fc17422a1a.png",
     "static/media/Wanderlust-image1.jpeg": "/portfolio/static/media/Wanderlust-image1.718ae27c980b73a7fd03.jpeg",
@@ -65,7 +75,10 @@
     "static/media/Tian_Qin_Resume.pdf": "/portfolio/static/media/Tian_Qin_Resume.699bef6eb55dc9d2bcc9.pdf",
     "static/media/improvement4.png": "/portfolio/static/media/improvement4.2bf44f60ee21053c5a52.png",
     "static/media/team-photo2.png": "/portfolio/static/media/team-photo2.9bd22b57140719b30344.png",
+    "static/media/letter_small.png": "/portfolio/static/media/letter_small.15314610ef866db2d559.png",
     "static/media/improvement1.png": "/portfolio/static/media/improvement1.aaebd9971e93189465f5.png",
+    "static/media/ant_small.png": "/portfolio/static/media/ant_small.e4d9cfc81e31392ffacd.png",
+    "static/media/moon_small.png": "/portfolio/static/media/moon_small.780836d201fb492e1789.png",
     "static/media/horse_small.png": "/portfolio/static/media/horse_small.044469efbd2dcea6f93c.png",
     "static/media/gaze_small.png": "/portfolio/static/media/gaze_small.33966f917bb218a76e76.png",
     "static/media/wanderlust_small.png": "/portfolio/static/media/wanderlust_small.e05134b0b8c21d9f6895.png",
@@ -89,12 +102,12 @@
     "static/media/future-title-logo.png": "/portfolio/static/media/future-title-logo.ddf2297b621c387a4d09.png",
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
-    "main.60b9c8ca.css.map": "/portfolio/static/css/main.60b9c8ca.css.map",
-    "main.eeb32f6e.js.map": "/portfolio/static/js/main.eeb32f6e.js.map",
+    "main.fe513273.css.map": "/portfolio/static/css/main.fe513273.css.map",
+    "main.48fe513c.js.map": "/portfolio/static/js/main.48fe513c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60b9c8ca.css",
-    "static/js/main.eeb32f6e.js"
+    "static/css/main.fe513273.css",
+    "static/js/main.48fe513c.js"
   ]
 }
