@@ -64,7 +64,7 @@ function MenuContainer(props){
 							</div>
 							<div className="menu-grid-item">
 								<div>
-								<div >An interactive installation embarks on an artistic odyssey, delving into the intricate dance between artificial intelligence and humankind. It beckons us to reflect upon the profound ramifications of technological progress.</div>
+								<div >An interactive installation, draws inspiration from Nietzsche's timeless words: "When you peer into the abyss, it gazes back at you." This project discusses in depth the complex relationship between artificial intelligence and us humans. It beckons the audience to reflect upon the profound impact of technological progress.</div>
 								<div style={{color:'#ff7800'}}>Role: Main Programmer, Designer</div>
 								<div style={{color:'#747474'}}>#Artificial Intelligence #Interactive Installation #Unity </div>
 								</div>

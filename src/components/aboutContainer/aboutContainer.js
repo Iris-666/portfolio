@@ -47,7 +47,7 @@ function AboutContainer({project}){
                     <br></br>
 
                         
-                    <a onClick={openMore} className="selfIntro" rel="noopener noreferrer" style={{paddingBottom: '10px', fontWeight:'bold', paddingTop:'10px',cursor:'pointer'}}>More About Me </a>
+                    <a onClick={openMore} className="selfIntro" rel="noopener noreferrer" style={{paddingBottom: '10px', fontWeight:'bold', paddingTop:'10px',cursor:'pointer'}}>More About Me ▼ </a>
                     <div className="moreAboutMe" style={{display:` ${click ? 'block' : 'none'}`}}>
 
                     <p className="selfIntro">Besides these, in my life, I immensely enjoy wandering around the world. Travel experiences in different places always bring me new inspiration. Watching the northern light, skydiving, scuba diving, skiing, or lying in the desert gazing at the Milky Way, make me feel that my world is vast, boundless, and without limits.</p>

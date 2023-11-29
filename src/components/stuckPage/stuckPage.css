@@ -209,15 +209,16 @@
 }
 
 .stuckPage-problem-img1{
-    width: 18vw;
+    width: 23vw;
     float: left;
     margin-left: 30px;
 }
 
-.stuckPage-problem-text-container:after{
+.stuckPage-problem-text-container{
     content: "";
     display: table;
     clear: both;
+    width: 100vw;
 }
 
 .stuckPage-problem-text2{
@@ -325,10 +326,11 @@
     margin-top: 20px;
 }
 
-.stuckPage-interview-text-container:after{
+.stuckPage-interview-text-container{
     content: "";
     display: table;
     clear: both;
+    width: 100vw;
 }
 
 .stuckPage-interview-questions{
@@ -512,4 +514,12 @@
 
 .stuckPage-team-photo-img{
     width: 25vw;
+}
+
+.stuckPage-design-ideation-img-container{
+    width: 100vw;
+}
+
+.stuckPage-design-ideation{
+    width: 100vw;
 }

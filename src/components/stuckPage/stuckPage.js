@@ -162,7 +162,7 @@ function StuckPage(){
             <section className='stuckPage-design-ideation'>
                 <p className='stuckPage-problem-title'>Ideation Process</p>
                 <div className='stuckPage-overview-title-line'></div>
-                <div className='stuckPage-design-ideation-img-container'>
+                <div className='stuckPage-design-ideation-img-container' >
                     <img src={require('./ideation1.png')} className="stuckPage-design-ideation-img1" alt='img1'></img>
                     <img src={require('./ideation2.png')} className="stuckPage-design-ideation-img2" alt='img1'></img>
                 </div>
@@ -204,7 +204,7 @@ function StuckPage(){
 
                 </section>
             </section>
-            <section className='stuckPage-final-prototype'>
+            <section className='stuckPage-final-prototype' style={{width:'100vw'}}>
                 <section className='stuckPage-final-prototype-title-container'>
                     <div className='stuckPage-final-prototype-title'>
                         <p className='stuckPage-interview-title'>Final Prototype</p>
@@ -253,21 +253,21 @@ This san-serif font will give a minimial, clean and clear type to STUCK?   </p>
                 <img src={require('./future-title-logo.png')} className="stuckPage-research-title-logo"></img>
                 <p className='stuckPage-research-title-text'>FUTURE DEVELOPMENT</p>
             </section>
-            <section className='stuckPage-future-watch'>
+            <section className='stuckPage-future-watch' style={{width:'100vw'}}>
                 <p className='stuckPage-problem-title'>Smart Watch Integration</p>
                 <div className='stuckPage-overview-title-line'></div>
             </section>
-            <div className='stuckPage-future-watch-content' style={{position:"relative"}}>
+            <div className='stuckPage-future-watch-content' style={{position:"relative", width:'100vw'}}>
                     <div className='stuckPage-future-watch-text'>
                         <p className='stuckPage-normal-text' style={{width:"40vw"}}>It would be nice if we can integrate this application with smart watches. Smart watches like Apple Watch are always on users. Using features on smart watches like fitness tracking can allow users to access even more functionalities.</p>
                     </div>
                     <img src={require('./future-watch.png')} className="stuckPage-future-watch-img" alt='icons'></img>
                 </div>
-                <section className='stuckPage-future-watch'>
+                <section className='stuckPage-future-watch' style={{width:"100vw"}}>
                 <p className='stuckPage-problem-title'>Home Screen Widget</p>
                 <div className='stuckPage-overview-title-line'></div>
             </section>
-            <div className='stuckPage-future-watch-content' style={{position:"relative"}}>
+            <div className='stuckPage-future-watch-content' style={{position:"relative", width:"100vw"}}>
                     <div className='stuckPage-future-watch-text'>
                         <p className='stuckPage-normal-text' style={{width:"40vw"}}>we want to allow users to add our app’s widget to their home scren. This will help remind users of their picked daily challenge whenever they open their phone screen.</p>
                     </div>
@@ -284,7 +284,7 @@ This san-serif font will give a minimial, clean and clear type to STUCK?   </p>
                 <img src={require('./team-title-logo.png')} className="stuckPage-research-title-logo"></img>
                 <p className='stuckPage-research-title-text'>TEAM</p>
             </section>
-            <div className='stuckPage-team-content-container' style={{marginTop:"50px"}}>
+            <div className='stuckPage-team-content-container' style={{marginTop:"50px", width:'100vw'}}>
                 <div className='stuckPage-team-member' style={{marginRight:"50px"}}>
                     <img src={require('./team-photo1.png')} className="stuckPage-team-photo-img" alt='photo1'></img>
                     <p className='stuckPage-normal-text stuckPage-team-text'>IRIS QIN</p>
