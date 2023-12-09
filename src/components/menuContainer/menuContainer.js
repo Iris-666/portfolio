@@ -32,6 +32,10 @@ function MenuContainer(props){
 	  const routeChangeAnt = () =>{ 
         openInNewTab('https://drive.google.com/file/d/1C3Vt90RX1sy1PePoYwQi0TOCrvePviMC/view');
       }
+
+	  const routeChangeLetter = () =>{
+		openInNewTab(`https://drive.google.com/file/d/1_Vmjmtg3ZVgP7P-j5srvyQfc5xiq0Msn/view?usp=sharing`);
+	  }
 	  const routeChangeMoon = () =>{ 
         openInNewTab('https://github.com/Iris-666/abc-student-repo/blob/master/projects/projectC/README.md');
       }
@@ -104,7 +108,7 @@ function MenuContainer(props){
 							</div>
 							<div className="menu-grid-item">
 								<div>
-								<div >An interactive VR storytelling experience. Enter a Dream World of Love and Healing: Join Rosie and Isac in a Fantastical Garden, Where Fur Babies and Animal Lovers Unite to Find Solace, Share Memories, and Embrace Nature's Magic.</div>
+								<div >Samsara offers an immersive VR storytelling journey. Step into a dreamlike realm of love and healing alongside Rosie and Isac. In this enchanting garden, players can interact freely with the animals and reveal the heartwarming story behind the garden. </div>
 								<div style={{color:'#ff7800'}}>Role: Interaction Designer, Main Programmer</div>
 								<div style={{color:'#747474'}}>#VR #Unity #Storytelling #Animal Interaction </div>
 								</div>
@@ -135,7 +139,7 @@ function MenuContainer(props){
 					</div>
 				</a>
 				<hr></hr>
-				<a className="menuLink">
+				<a onClick={routeChangeLetter} className="menuLink">
 					<div className="menu-improved">
 						<div className="menu-grid">
 							<div className="menu-grid-item">
@@ -144,7 +148,7 @@ function MenuContainer(props){
 							</div>
 							<div className="menu-grid-item">
 							<div>
-							<div>An AR Wechat Miniprogram for the immersive theater production "Letter," which actively engaged audiences through interactive target scanning for clues. </div>
+							<div>An AR Wechat Mini-program for the China Telecommunications Museum's immersive theater. Audience need to scan the target objects with the AR program to find out the passwords or clues in the play. </div>
 							<div style={{color:'#ff7800'}}>Solo Developer</div>
 						<div style={{color:'#747474'}}>#Augmented Reality #Wechat Miniprogram #Immersive Theater</div>
 						</div>
@@ -240,7 +244,7 @@ function MenuContainer(props){
 							</div>
 							<div className="menu-grid-item">
 								<div>
-								<div >Ant's Adventure is a mobile motion-sensing flying game. The player is a little ant, who is sick of the life being exploited and working 996, so you ride a leaf and fly for free. This game was developed with Unity and the gyroscope data.</div>
+								<div >Ant's Adventure is a mobile motion-sensing flying game. The player is a little ant, who is tired of being exploited in its colony, rides a leaf and flies for free. This game was developed with Unity and the gyroscope data.</div>
 								<div style={{color:'#ff7800'}}>Role: Game Designer, Game Developer</div>
 								</div>
 							<img src={require('./ant_small.png')} style={{width:"120px",height:'120px'}}></img>
