@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {Header, MainPage, WorkPage, HomePage, StuckPage, AntPage, Footer, AboutPage, GazePage, SamsaraPage} from './components'
+import {Header, MainPage, WorkPage, HomePage, StuckPage, AntPage, Footer, AboutPage, GazePage, SamsaraPage, WanderlustPage} from './components'
 import { HashRouter as Router, HashRouter, Route, Routes } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from "./serviceWorker";
+import WanderlustPage from './components/wanderlustPage/wanderlustPage';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -32,6 +33,7 @@ ReactDOM.render(
       <Route path="/about" element={<AboutPage />}/>
       <Route path="/gaze" element={<GazePage />}/>
       <Route path="/samsara" element={<SamsaraPage />}/>
+      <Route path="/wanderlust" element={<WanderlustPage />}/>
 
     </Routes>
     {/* </HashRouter> */}

@@ -14,5 +14,7 @@ import MenuContainer from "./menuContainer/menuContainer";
 import AboutContainer from "./aboutContainer/aboutContainer";
 import GazePage from "./gazePage/gazePage";
 import SamsaraPage from "./samsaraPage/samsaraPage";
+import WanderlustPage from "./wanderlustPage/wanderlustPage";
 
-export {Header, NavBar, MainPage, Work, WorkPage, HomePage, StuckPage, AntPage, Slideshow, Footer, WorkSlideshow, AboutPage, MenuContainer, AboutContainer, GazePage, SamsaraPage}
+
+export {Header, NavBar, MainPage, Work, WorkPage, HomePage, StuckPage, AntPage, Slideshow, Footer, WorkSlideshow, AboutPage, MenuContainer, AboutContainer, GazePage, SamsaraPage, WanderlustPage}
