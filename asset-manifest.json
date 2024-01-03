@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6566db7d.css",
-    "main.js": "/portfolio/static/js/main.3301e52e.js",
+    "main.js": "/portfolio/static/js/main.f7e86383.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/berry.png": "/portfolio/static/media/berry.861bc1a6c986c4688ddb.png",
     "static/media/aboutme4.png": "/portfolio/static/media/aboutme4.25475711facca9114ebd.png",
@@ -26,19 +26,23 @@
     "static/media/Samsara_5.png": "/portfolio/static/media/Samsara_5.49ab325153fc17422a1a.png",
     "static/media/Wanderlust-image1.jpeg": "/portfolio/static/media/Wanderlust-image1.718ae27c980b73a7fd03.jpeg",
     "static/media/Samsara_1.png": "/portfolio/static/media/Samsara_1.2e7281059ef87a696cd3.png",
-    "static/media/Samsara_7.png": "/portfolio/static/media/Samsara_7.e5212a46972b54936145.png",
+    "static/media/wanderlust-5.jpg": "/portfolio/static/media/wanderlust-5.8a3f7b989d4c489fc068.jpg",
     "static/media/Gaze-1.jpg": "/portfolio/static/media/Gaze-1.8998c4e91f122442f4f3.jpg",
-    "static/media/Samsara_6.png": "/portfolio/static/media/Samsara_6.ab5cb2b4d50b265a7496.png",
-    "static/media/Gaze-3.jpg": "/portfolio/static/media/Gaze-3.dafebd801cdddcd9556a.jpg",
+    "static/media/Gaze-3.jpg": "/portfolio/static/media/Gaze-3.62313785653cae892020.jpg",
     "static/media/sitemap1.png": "/portfolio/static/media/sitemap1.5dd573022cc1c24e308b.png",
-    "static/media/Gaze-4.jpg": "/portfolio/static/media/Gaze-4.0c890f85ab82de84c747.jpg",
-    "static/media/Gaze-2.jpg": "/portfolio/static/media/Gaze-2.247bf8138dc8152a3de1.jpg",
-    "static/media/Gaze-6.jpg": "/portfolio/static/media/Gaze-6.9fecad1437be59cf15d6.jpg",
+    "static/media/Samsara_6.png": "/portfolio/static/media/Samsara_6.b74bf1120426a9d42807.png",
+    "static/media/Gaze-4.jpg": "/portfolio/static/media/Gaze-4.fc096753e88803015c5e.jpg",
+    "static/media/Gaze-2.jpg": "/portfolio/static/media/Gaze-2.10db2187e8a6d08f8664.jpg",
+    "static/media/Gaze-6.jpg": "/portfolio/static/media/Gaze-6.d376d0e56137bf854c93.jpg",
+    "static/media/wanderlust-2.jpg": "/portfolio/static/media/wanderlust-2.f34c565ba216cc59b42e.jpg",
     "static/media/portfolio_photo.png": "/portfolio/static/media/portfolio_photo.7118b2bcf63b6e773fba.png",
-    "static/media/Gaze-5.jpg": "/portfolio/static/media/Gaze-5.1cba0e987ea5e2121740.jpg",
+    "static/media/Gaze-5.jpg": "/portfolio/static/media/Gaze-5.5c7d5d2ea6b500ab1fd3.jpg",
     "static/media/Samsara_4.png": "/portfolio/static/media/Samsara_4.c03ebc8241f80c46d636.png",
+    "static/media/wanderlust-1.jpg": "/portfolio/static/media/wanderlust-1.5a17b1ce21b1dbe3fbf0.jpg",
     "static/media/Samsara_3.png": "/portfolio/static/media/Samsara_3.8a430a3703172ff0cbdc.png",
     "static/media/Samsara_2.png": "/portfolio/static/media/Samsara_2.737417000a964131239e.png",
+    "static/media/wanderlust-3.jpg": "/portfolio/static/media/wanderlust-3.404758e1e1d02b1b8d40.jpg",
+    "static/media/wanderlust-4.jpg": "/portfolio/static/media/wanderlust-4.569684c299d0ded5aa56.jpg",
     "static/media/logo.gif": "/portfolio/static/media/logo.e4b0f0855a2bfd984b0e.gif",
     "static/media/moyuan4.png": "/portfolio/static/media/moyuan4.4bd0f8723a7cc44457bf.png",
     "static/media/ideation1.png": "/portfolio/static/media/ideation1.f9f59e1f74c110e45621.png",
@@ -103,11 +107,11 @@
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
     "main.6566db7d.css.map": "/portfolio/static/css/main.6566db7d.css.map",
-    "main.3301e52e.js.map": "/portfolio/static/js/main.3301e52e.js.map",
+    "main.f7e86383.js.map": "/portfolio/static/js/main.f7e86383.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6566db7d.css",
-    "static/js/main.3301e52e.js"
+    "static/js/main.f7e86383.js"
   ]
 }
