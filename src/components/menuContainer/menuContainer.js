@@ -78,7 +78,7 @@ function MenuContainer(props){
 					</div>
 				</a>
 				<hr></hr>
-				<a className="menuLink" onClick={routeChangeWander}>
+				<a href="./#/wanderlust" className="menuLink">
 					<div className="menu-improved">
 						<div className="menu-grid">
 							<div className="menu-grid-item">

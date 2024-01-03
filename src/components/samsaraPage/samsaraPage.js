@@ -17,7 +17,6 @@ function SamsaraPage(){
 			<img src={require('./Samsara_4.png')} style={{width:"100%"}}></img>
 			<img src={require('./Samsara_5.png')} style={{width:"100%"}}></img>
 			<img src={require('./Samsara_6.png')} style={{width:"100%"}}></img>
-			<img src={require('./Samsara_7.png')} style={{width:"100%"}}></img>
 
         </div>
         </div>

@@ -6,7 +6,6 @@ import {Header, MainPage, WorkPage, HomePage, StuckPage, AntPage, Footer, AboutP
 import { HashRouter as Router, HashRouter, Route, Routes } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from "./serviceWorker";
-import WanderlustPage from './components/wanderlustPage/wanderlustPage';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
