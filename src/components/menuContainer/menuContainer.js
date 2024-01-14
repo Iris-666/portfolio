@@ -72,7 +72,7 @@ function MenuContainer(props){
 								<div style={{color:'#ff7800'}}>Role: Main Programmer, Designer</div>
 								<div style={{color:'#747474'}}>#Artificial Intelligence #Interactive Installation #Unity </div>
 								</div>
-							<img src={require('./gaze_small.png')} style={{width:"120px",height:'120px'}}></img>
+							<img src={require('./gaze_small.png')} style={{width:"120px",height:'120px', marginLeft: '5px'}}></img>
 							</div>
 						</div>
 					</div>

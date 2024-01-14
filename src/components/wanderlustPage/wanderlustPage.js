@@ -16,6 +16,9 @@ function WanderlustPage(){
 			<img src={require('./wanderlust-3.jpg')} style={{width:"100%"}}></img>
 			<img src={require('./wanderlust-4.jpg')} style={{width:"100%"}}></img>
 			<img src={require('./wanderlust-5.jpg')} style={{width:"100%"}}></img>
+            <video controls width="50%">
+                <source src={require('./wanderlust.mp4')} type="video/mp4"></source>
+            </video>
 
         </div>
         </div>
